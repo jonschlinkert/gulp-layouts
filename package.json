@@ -1,0 +1,29 @@
+{
+  "name": "gulp-layouts",
+  "description": "Gulp plugin for the `layouts` lib, which provides a simple way of wrapping common code or content with layouts.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/gulp-layouts",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/gulp-layouts",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/gulp-layouts/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulp",
+    "layouts"
+  ],
+  "devDependencies": {
+    "through2": "^2.0.1"
+  }
+}
