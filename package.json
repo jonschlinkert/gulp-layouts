@@ -1,6 +1,6 @@
 {
   "name": "gulp-layouts",
-  "description": "Gulp plugin for the `layouts` lib, which provides a simple way of wrapping common code or content with layouts.",
+  "description": "Gulp plugin for the `layouts` lib, which provides a simple way of using common code or content to wrap other files. Can be used with HTML, javascript, banners, CSS, or any other string.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/gulp-layouts",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
@@ -24,6 +24,35 @@
     "layouts"
   ],
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.3",
+    "vinyl": "^1.1.1",
+    "vinyl-fs": "^2.4.3"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "layouts": "^0.13.2",
     "through2": "^2.0.1"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
